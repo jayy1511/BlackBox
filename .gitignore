@@ -1,0 +1,24 @@
+@'
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Cache
+.pytest_cache/
+'@ | Set-Content -Path ".gitignore" -Encoding UTF8
