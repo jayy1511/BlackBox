@@ -8,8 +8,7 @@ from alembic import context
 
 from app.core.config import settings
 from app.db.base import Base
-from app.models import Run  # noqa: F401
-
+from app.models import DetectedEntity, LlmCall, PolicyDecision, Run  # noqa: F401
 
 config = context.config
 
